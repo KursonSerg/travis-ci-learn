@@ -4,4 +4,4 @@ dist: trusty
 compiler:
   - gcc
   - clang
-script: make
+script: make && make test_lest
